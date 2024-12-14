@@ -1,0 +1,112 @@
+/* Sidebar.css */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-left: 2vw;
+    padding-top: 4vh;
+    padding-bottom: 10vh;
+    height: 85vh;
+    width: 23vw ;
+    border-radius: 4vh;
+    border:#FFFFFF;
+    background-color: #FFFFFF;
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px; /* Set a top value to make it sticky from the top */
+    z-index: 1;
+  }
+  .sidebar-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0;
+    cursor: pointer;
+    font-size: 20px; 
+    margin-top: 6%;
+    color: rgb(139, 141, 141);
+    font-family: inter;
+    font-weight: 500;
+
+  }
+
+  .item
+  {
+    margin-left: 5%;
+    font-size: 20px;
+
+  }
+  
+
+  .userName{
+  margin: 5%;
+  font-family: inter;
+  font-weight:800;
+  font-size: 25px;
+  padding: 0;
+  cursor: pointer;
+
+  }
+  .userStatus{
+    margin: 5%;
+    font-family: inter;
+    font-size: 15px;
+    padding: 0;
+  }
+
+
+  .items{
+    margin-top: 13%;
+  }
+
+  .icon-size{
+    width: 100px;
+    height: 50px;
+    font-size: 50px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .tickedDiv{
+    height: 1.6vw;
+    width: 0.3vw;
+    background-color: #F7C159;
+    margin-right: 0.7vw;
+    display: none;
+
+  }
+  .tickedDiv.visible {
+    display: block;
+    /* Add any other styles as needed */
+  }
+  .back{
+    background-color: #EBEBEB;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 1;
+  }
+
+  .Settings{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    margin-top: 20%;
+    font-family: inter;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  .out{
+    background-color: #F7C159;
+    border-radius: 19px;
+    height: 6vh;
+    width:9vw;
+    align-self: center;
+    font-family: inter;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 5%;
+
+  }
